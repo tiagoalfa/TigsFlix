@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <title>Tigsflix - O melhor portal de filmes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a4e36c4c89.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+
+<!--Cabeçalho logo e menu-->
+<header class="container header">
+
+  <div class="row">
+
+    <div class="col-12 header_area">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-2">
+      <img src="logoimg/TIGSFLIX2.png" class="logo">
+    </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-10 menu_area">
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Lançamentos</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Em destaque</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Avaliações</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Entrevistas & makingof</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Novidades</a>
+      <!--barra de pesquisa-->
+        <div class="">
+            <input id="input_Pesquisar"type="text" class="search-query" placeholder="Pesquisar filme">
+            <button id="btn_Pesquisar"onclick="PesquisaFilmes" class="btn"><i class="fas fa-search lupa" ></i></button>
+        </div>
+  </div>
+    </nav>
+  </div>
+  
+
+</div>
+</div>
+    </div>
+    </div>
+   </div>
+  </div>
+</header>
+
+<!--Principal-->
+<main class="container">
+    <div class="container row">
+      <div class="col-12">
+  <h1 class="lancamentos">Lançamentos</h1>
+</div>
+</div>
+
+  <!--<Carousel>-->
+  <section class="container row carousel">
+    <div class="row">
+    <div class="col-12">
+      <div id="carouselExampleIndicators" class="carousel slide carousel_teste" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-8 col-lg-6">
+                      <iframe width="500" height="500" src="https://www.youtube.com/embed/VWKYlN-fAWM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          
+          <div class="col-12 col-sm-12 col-md-8 col-lg-6 sinopse_slide3">
+            <h1 class="titulo_slide">Hobbit - A Desolação de Smaug</h1>
+            <p><strong>Sinopse:</strong>Ao lado de um grupo de anões e de Gandalf, Bilbo segue em direção à Montanha Solitária, onde deverá ajudar seus companheiros a retomar a Pedra de Arken. O problema é que o artefato está perdido em meio a um tesouro protegido pelo temido dragão Smaug.</p>
+            <p><strong>Diretor:</strong>Peter Jackson                           <strong>Roteiro:</strong>Fran Walsh,Philippa Boyens,Guillermo del Toro,Peter Jackson.    <strong>Estreia:</strong>2021.</p>
+            <p><strong>Elenco:</strong> Ian McKellen,Martin Freeman,Mikael Persbrandt,Sylvester McCoy,Aidan Turner,Dean...</p>
+            <p><strong>Avaliação:</strong></p>
+            <span class="fa fa-star checked">&nbsp&nbsp</span>
+          <span class="fa fa-star checked">&nbsp&nbsp</span>
+          <span class="fa fa-star checked">&nbsp&nbsp</span>
+           <span class="fa fa-star checked">&nbsp&nbsp</span>
+           <span class="fa fa-star ">&nbsp&nbsp</span>
+            
+          </div>
+      </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-8 col-lg-6 ">
+                      <iframe width="500" height="500" src="https://www.youtube.com/embed/6FVulnc4poc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100" alt="..."></iframe>
+            </div>
+          
+          <div class="col-12 col-sm-12 col-md-8 col-lg-6 sinopse_slide3">
+            <h1 class="titulo_slide">Guardiões da Galáxia vol.2</h1>
+            <p><strong>Sinopse:</strong>Os Guardiões precisam lutar para manter sua recém descoberta família unida, enquanto descobrem os mistérios sobre o verdadeiro pai de Peter Quill</p>
+            <p><strong>Diretor:</strong>James Gunn                          <strong>Roteiro:</strong>James Gunn.    <strong>Estreia:</strong>2021.</p>
+            <p><strong>Elenco:</strong>Chris Pratt,Zoë Saldaña,Dave Batista,Vin Diesel,Bradley Cooper,Michael Rooker,Karen Gillan,Pom Klementieff,Elizabeth Debicki,Chris Sullivan,Sean Gunn,Sylvester Stallone,Kurt Russell</p>
+            <p><strong>Avaliação:</strong></p>
+            <span class="fa fa-star checked">&nbsp&nbsp</span>
+          <span class="fa fa-star checked">&nbsp&nbsp</span>
+          <span class="fa fa-star checked">&nbsp&nbsp</span>
+           <span class="fa fa-star checked">&nbsp&nbsp</span>
+           <span class="fa fa-star ">&nbsp&nbsp</span>
+          </div>
+      </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-8 col-lg-6">
+                      <iframe width="500" height="500" src="https://www.youtube.com/embed/jfVTJm9NilA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100" alt="..."></iframe>
+            </div>
+          
+          <div class="col-12 col-sm-12 col-md-8 col-lg-6 sinopse_slide3">
+            <h1 class="titulo_slide">Coringa - O filme</h1>
+            <p><strong>Sinopse:</strong> Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur Fleck inicia seu caminho como uma mente criminosa após assassinar três homens em pleno metrô. Sua ação inicia um movimento popular contra a elite de Gotham City, da qual Thomas Wayne é seu maior representante.</p>
+            <p><strong>Diretor:</strong> 	Todd Phillips                           <strong>Roteiro:</strong>Todd Phillips e  Scott Silver.    <strong>Estreia:</strong>2021.</p>
+            <p><strong>Elenco:</strong> Joaquin Phoenix,Robert De Niro,Zazie Beetz,Bill Camp,Frances Conroy,Brett Cullen.</p>
+            <p><strong>Avaliação:</strong></p>
+            <span class="fa fa-star checked">&nbsp&nbsp</span>
+          <span class="fa fa-star checked">&nbsp&nbsp</span>
+          <span class="fa fa-star checked">&nbsp&nbsp</span>
+           <span class="fa fa-star checked">&nbsp&nbsp</span>
+           <span class="fa fa-star checked">&nbsp&nbsp</span>
+           
+          </div>
+      </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    <!--</Carousel> -->
+
+      </section>
+
+
+
+      <!--banner em destaque-->
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+      <h1 class="destaque">Em destaque</h1>
+    </div>
+    <div class="col-12 col-sm-12 col-md-8 col-lg-3">
+    <div class="dropdown destaque_drop">
+      <button class="btn btn-secondary dropdown-toggle" id="categorias-filmes" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Categoria:TODOS
+      </button>
+      <div class="dropdown-menu"  aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Ação</a>
+        <a class="dropdown-item" href="#">Aventura</a>
+        <a class="dropdown-item" href="#">Romance</a>
+        <a class="dropdown-item" href="#">Comédia</a>
+      </div>
+      </div>
+    </div>
+    </div>
+    <div >
+      <section class="row card_area" id="lista_filmes">
+        <div class="col-12 col-sm-6 col-md-3 col-lg-4">
+          <img src="cardsdestaque/card1.jpg">
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 col-lg-4">
+          <img src="cardsdestaque/card2.jpg">
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 col-lg-4">
+          <img src="cardsdestaque/card3.jpg">
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 col-lg-4">
+          <img src="cardsdestaque/card4.jpg">
+        </div>
+         </section>
+        </div>
+        
+      
+      <!--Ocultar div-->
+      <div class="container row">
+        <div class="col-12 col-sm-6 col-md-3 col-lg-12 carregar_mais">
+        <button type="button" class="btn btn-danger" id="action-btn"><i class="fas fa-plus more"></i>Carregar mais filmes</button>
+      </div>
+      <div id="container">
+        <section class="row card_area" id="lista_filmes2">
+          <div class="col-12 col-sm-6 col-md-3 col-lg-4 " >
+            <img src="cardsdestaque/card1.jpg">
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 col-lg-4 ">
+            <img src="cardsdestaque/card2.jpg">
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 col-lg-4 ">
+            <img src="cardsdestaque/card3.jpg">
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 col-lg-4 ">
+            <img src="cardsdestaque/card4.jpg">
+          </div>
+           </section>
+          </div>
+      </div>
+      
+
+
+
+      <!--avaliações-->
+
+      <div class="row container">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-12">
+      <h1 class="avaliacao">Últimas avalicações</h1>
+    </div>
+      <section class="container row ">
+        <div class="row ">
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+
+
+
+          </div>
+          
+        </div>
+
+      </section>
+      </div>
+      <!--Esconder e mostrar mais avaliações-->
+      <div class="container row">
+        <div class="col-12 col-sm-6 col-md-3 col-lg-12 carregar_mais2">
+        <button type="button" class="btn btn-danger" id="avaliation-btn"><i class="fas fa-plus more"></i>Carregar mais avaliações</button>
+      </div>
+      <div id="container2">
+      <section class="container row ">
+        <div class="row ">
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 card_avaliacao">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-user-circle user_icone"></i>  <strong>Nome do avaliador</strong></h5>
+                <p class="card-text"><strong>Avaliação:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nibh egestas, sollicitudin augue quis, molestie sem. Proin eu vehicula risus, nec commodo nisl.</p>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                 <span class="fa fa-star checked">&nbsp&nbsp</span>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </section>
+      </div>
+    </div>
+
+
+      <!--Entrevistas e makingof-->
+      <div class="row container">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-12">
+      <h1 class="avaliacao">Entrevista & Making of</h1>
+    </div>
+      </div>
+      <section class="container entrevista">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 texto_entrevistas">
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/9yZhEUkiSgk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><strong>Entrevista com elenco de Guardiões da Galáxia Vol. 2</strong></h3>
+            <p><strong>Diretor:</strong>James Gunn.</p>
+            <p><strong>Roteiro:</strong>James Gunn.  <strong>Estreia:</strong>2021</p>
+                  
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 texto_entrevistas">
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/pfGOII18cO4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><strong>Bastidores Man of Steel</strong></h3>
+            <p><strong>Diretor:</strong>Zack Snyder.</p>
+            <p><strong>Roteiro:</strong>David S. Goyer.  <strong>Estreia:</strong>2021</p>
+
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 texto_entrevistas">
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/K-lx9KlNoi8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><strong>Entrevista com elenco de X-men:Apocalipse</strong></h3>
+            <p><strong>Diretor:</strong>Bryan Singer.</p>
+            <p><strong>Roteiro:</strong>Simon Kinberg.  <strong>Estreia:</strong>2021</p>
+            
+
+          </div>
+        </div>
+        
+      </section>
+      <div class="container row">
+        <div class="col-12 col-sm-6 col-md-3 col-lg-12 carregar_mais3">
+        <button type="button" class="btn btn-danger" id="entrevista-btn"><i class="fas fa-plus more"></i>Carregar mais filmes</button>
+      </div>
+      </div>
+      <section class="container entrevista" id="container3">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 texto_entrevistas">
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/iTBmSCJvUcI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><strong>Bastidores de Esquadrão Suicida</strong></h3>
+            <p><strong>Diretor:</strong>David Ayer.</p>
+            <p><strong>Roteiro:</strong>David Ayer.  <strong>Estreia:</strong>2021</p>
+                  
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 texto_entrevistas">
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/Oj8gaHiOUVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><strong>CAPTAIN MARVEL | Entrevista e Bastidores do filme </strong></h3>
+            <p><strong>Diretor:</strong>Anna Boden.</p>
+            <p><strong>Roteiro:</strong>Ryan Fleck.  <strong>Estreia:</strong>2021</p>
+
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 texto_entrevistas">
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/n3adYAu0MsI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><strong>Vingadores: Guerra Infinita - Erros de Gravação!</strong></h3>
+            <p><strong>Diretor:</strong>Joe Russo.</p>
+            <p><strong>Roteiro:</strong>Anthony Russo.  <strong>Estreia:</strong>2021</p>
+            
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 texto_entrevistas">
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/BWJP67BpQic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><strong>COMO FOI FEITO O FILME: ATÉ O ÚLTIMO HOMEM? MAKING OF</strong></h3>
+            <p><strong>Diretor:</strong>Mel Gibson.</p>
+            <p><strong>Roteiro:</strong>Mel Gibson.  <strong>Estreia:</strong>2021</p>
+            
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 texto_entrevistas">
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/H2tT4klTV20" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><strong>O SEGREDO dos EFEITOS de DE VOLTA PARA O FUTURO! (ESPECIAL + bastidores)</strong></h3>
+            <p><strong>Diretor:</strong>Robert Zemeckis.</p>
+            <p><strong>Roteiro:</strong>Robert Zemeckis.  <strong>Estreia:</strong>2021</p>
+            
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-4 texto_entrevistas">
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/87ZP0I6_5jk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><strong>Erros de gravação | Homem Aranha 2 (2004) - Extras Legendado</strong></h3>
+            <p><strong>Diretor:</strong>Sam Raimi.</p>
+            <p><strong>Roteiro:</strong>Sam Raimi  <strong>Estreia:</strong>2021</p>
+            
+
+          </div>
+        </div>
+        
+      </section>
+      <!--Novidades,sobre e editorial-->
+      
+      <section class="row infos">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-8 col-lg-6">
+        <h1 class="destaque">Novidades</h1>
+        <div class="card mb-3 novidade-card1" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="novidades/novidades1.jpg" class="card-img" alt="novidade1">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><strong>Ator de aquaman sera o novo Drax.</strong></h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet nibh sit amet leo auctor rutrum. Morbi fermentum finibus felis, eu mattis velit lobortis sit amet.</p>
+                <button type="button" class="btn btn-danger novidade-button">hollywood</button>
+                <button type="button" class="btn btn-danger novidade-button">oscar</button>
+                <button type="button" class="btn btn-danger novidade-button">melhor filme</button>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 novidade-card2" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="novidades/novidades2.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><strong>Marvel contrata novo ator para atuar como Capitão America.</strong></h5>
+                <p class="card-text">Integer ac mauris libero. Proin sit amet enim porta, convallis elit non, pulvinar nisi. Sed hendrerit nec purus at accumsan. Phasellus dictum egestas nisl nec volutpat.</p>
+                <button type="button" class="btn btn-danger novidade-button">hollywood</button>
+                <button type="button" class="btn btn-danger novidade-button">oscar</button>
+                <button type="button" class="btn btn-danger novidade-button">melhor filme</button>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 novidade-card3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="novidades/novidades3.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><strong>Homen de ferro voltara no próximo filme da saga Vingadores com novo ator.</strong></h5>
+                <p class="card-text">Aenean sem nulla, convallis pellentesque iaculis non, mattis suscipit nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin eget dolor est.</p>
+                <button type="button" class="btn btn-danger novidade-button">hollywood</button>
+                <button type="button" class="btn btn-danger novidade-button">oscar</button>
+                <button type="button" class="btn btn-danger novidade-button">melhor filme</button>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+        <div class="col-12 col-sm-12 col-md-3 col-lg-6  ">
+        <h1 class="sobre">Sobre</h1>
+        <p class="texto-sobre">Cras eleifend ante id neque auctor rhoncus. Integer pretium erat vitae lorem pellentesque, sed ultricies mi maximus. Morbi fermentum quam elementum sapien tincidunt lobortis. Vivamus tincidunt turpis in pellentesque rhoncus. Aenean ut quam ullamcorper, mollis nisi vel, pretium sapien. Vestibulum quis turpis ut dui convallis malesuada. Cras id lobortis nisl. Mauris vitae sagittis turpis, hendrerit consequat sem. Quisque varius accumsan arcu, eget faucibus felis volutpat ac.</p>
+    
+          <p><h3 class="sobre">Editorial</h3></p>
+        <i class="fas fa-user texto-sobre">
+          <strong>Redação:</strong>Tiago Ferreira 
+        </i></p>
+        
+         <p><i class="fas fa-user texto-sobre">
+            <strong>Pesquisa:</strong>Tiago Ferreira 
+          </i></p>
+        
+         <p><i class="fas fa-user texto-sobre">
+            <strong>Gerente Geral:</strong>Tiago Ferreira 
+          </i></p>
+
+          <p><h3 class="sobre">Redes sociais:</h3></p>
+          <i class="fab fa-facebook-square facebook"></i> <i class="fab fa-twitter twitter "></i> <i class="fab fa-instagram instagram"></i>
+        
+        
+       
+        
+      </div>
+      </section>
+      
+
+
+
+
+
+
+
+
+
+
+</main>
+
+<!--Rodapé-->
+<footer class="container footer">
+  Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - <strong>ICEI PUC MINAS</strong>
+
+
+
+
+
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
